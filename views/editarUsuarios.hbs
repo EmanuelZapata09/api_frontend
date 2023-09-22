@@ -1,0 +1,83 @@
+
+<a href="usuarios"> <button style="border-radius: 40px; margin-left: 20%" type="button" class="btn btn-primary"><i
+            class="fa-solid fa-backward"></i>Atras</button></a>
+<div class="d-flex justify-content-center text-center">
+
+    <h1>Editar Usuario</h1>
+
+
+    <form id="margenForm"  >
+        <h5 style="font-weight: bold; padding: 2%">Datos del usuario</h5>
+        <div style="padding-top: 5%;" class="d-flex justify-content-center text-center align-items: center">
+            <div class="form-group">
+                <div class="col">
+                    <label for="name">Documento</label>
+                    <div class="input-group">
+                        <input style="border-radius: 40px" type="text" class="form-control" id="_documento" disabled>
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="name">Direccion</label>
+                    <div class="input-group">
+                        <input id="_direccion" style="border-radius: 40px" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="name">Correo</label>
+                    <div class="input-group">
+                        <input id="_correo" style="border-radius: 40px" type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col">
+                    <label for="name">Nombre</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        </div>
+                        <input id="_nombre" style="border-radius: 40px" type="text" class="form-control"
+                           >
+                    </div>
+                </div>
+                <div class="col">
+                    <label for="name">Telefono</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        </div>
+                        <input id="_telefono" style="border-radius: 40px" type="number" class="form-control"
+                           >
+                    </div>
+                </div>
+                   <div class="col">
+                    <label for="exampleFormControlSelect1">Rol</label>
+                    <select style="border-radius: 40px" class="form-select" id="_rol">
+                        <option value="6508716fcac526cc61bfe45e">Administrador</option>
+                        <option value="650cbc54e081334af85a8232 ">Cliente</option>
+                    </select>
+                </div>
+
+                    <div class="col">
+                    <label for="exampleFormControlSelect1">Estado</label>
+                    <select style="border-radius: 40px" class="form-select" id="_estado">
+                        <option value="true">Activo</option>
+                        <option value="false">Inactivo</option>
+                    </select>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center text-center">
+            <button id="editar" style="border-radius: 40px; margin-top: 3%;" type="button" class="btn btn-primary"><i
+                    class="fa-solid fa-pen"></i>Editar</button>
+            <script src="js/anadirUsuario.js"></script>
+    </form>
+</div>
+
+
+
+
+</div>
+
